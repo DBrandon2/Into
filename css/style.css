@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.fr-en {
+  font-weight: 400;
+  margin-left: 80%;
+  padding-top: 2%;
+}
+.fr-en a {
+  font-size: 14px;
+  color: black;
+}
+
+header {
+  display: flex;
+  margin-bottom: 5%;
+}
+header .logo {
+  margin-left: 5%;
+}
+header .logo span {
+  font-size: 70px;
+  font-weight: 900;
+  color: black;
+}
+header .logo p {
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: -15%;
+  color: black;
+}
+header .navbar ul {
+  margin-top: 20%;
+  width: 140%;
+  display: flex;
+  margin-left: 185%;
+  justify-content: center;
+}
+header .navbar ul li {
+  padding-right: 10%;
+}
+header .navbar ul li a {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+header .navbar ul li a span {
+  border-bottom: 5px solid black;
+}
+
+.legoHouse {
+  position: relative;
+}
+.legoHouse h1 {
+  width: 19%;
+  font-weight: 900;
+  font-size: 85px;
+  position: absolute;
+  right: 11%;
+  top: 10%;
+  line-height: 120%;
+  border-bottom: 10px solid black;
+}
+.legoHouse .imgHeader {
+  margin-left: 5%;
+}
+.legoHouse .imgHeader img {
+  width: 75%;
+}
+.legoHouse .car {
+  position: absolute;
+  right: 15%;
+  top: 60%;
+  z-index: -1;
+  width: 15%;
+}
+.legoHouse .car .imgHeader2 img {
+  width: 100%;
+}
+.legoHouse .car .arrows {
+  display: flex;
+  justify-content: flex-end;
+}
+.legoHouse .car .arrows .leftarrow {
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  padding-right: 18%;
+}
+.legoHouse .car .arrows .rightarrow {
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  padding-right: 18%;
+}
+
+.projet {
+  margin-top: 5%;
+}
+.projet h2 {
+  margin-left: 5%;
+}
+.projet .lorem2 {
+  font-size: 12px;
+  display: flex;
+  width: 85%;
+  height: 70vh;
+  margin-left: 5%;
+}
+.projet .lorem2 p {
+  margin-right: 2%;
+  width: 70%;
+}
+.projet h3 {
+  font-size: 40px;
+  font-weight: 900;
+  width: 30%;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 10%;
+  border: 7px solid black;
+}
+.projet a {
+  color: white;
+  background-color: black;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.building {
+  margin-top: 5%;
+}
+.building .imgBuilding {
+  margin-left: 4%;
+  background-color: black;
+  width: 40%;
+  height: 135vh;
+}
+.building .imgBuilding img {
+  width: 100%;
+}
+.building .imgBuilding p {
+  padding-top: 10%;
+  padding-left: 5%;
+  color: white;
+  font-weight: 500;
+  width: 85%;
+  margin-bottom: 10%;
+}
+.building .imgBuilding a {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  border: 3px solid white;
+  margin-left: 5%;
+  padding: 0.5%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-bottom: 5%;
+}
+.building .paragraphes {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  margin-left: 45%;
+  margin-top: -41%;
+}
+.building .paragraphes .paragraphe1 {
+  width: 50%;
+  border-top: 8px solid black;
+  padding-top: 7%;
+}
+.building .paragraphes .paragraphe1 span {
+  font-weight: 800;
+  padding-left: 5%;
+  font-size: 13px;
+}
+.building .paragraphes .paragraphe1 h4 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5%;
+}
+.building .paragraphes .paragraphe1 p {
+  padding-left: 5%;
+  padding-right: 15%;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+.building .paragraphes .paragraphe2 {
+  padding-top: 7%;
+  width: 50%;
+  margin-left: 5%;
+  border-top: 8px solid black;
+}
+.building .paragraphes .paragraphe2 span {
+  font-weight: 800;
+  padding-left: 5%;
+  font-size: 13px;
+}
+.building .paragraphes .paragraphe2 h4 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5%;
+}
+.building .paragraphes .paragraphe2 img {
+  width: 110%;
+  margin-left: -5%;
+  margin-top: 8%;
+}
+.building .paragraphes .paragraphe2 p {
+  padding-left: 5%;
+  padding-right: 15%;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 13.5%;
+  margin-bottom: 10%;
+}
+.building .paragraphes a {
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.prix {
+  display: flex;
+  margin-top: 30%;
+  margin-left: 8%;
+  margin-bottom: 20%;
+}
+.prix .paragraphe3 {
+  width: 50%;
+}
+.prix .paragraphe3 .border {
+  width: 40%;
+  border-top: 8px solid black;
+  padding-bottom: 5%;
+}
+.prix .paragraphe3 span {
+  font-weight: 800;
+  padding-left: 5%;
+  font-size: 13px;
+  padding-top: 10%;
+  padding-right: 20%;
+  font-size: 12px;
+}
+.prix .paragraphe3 h4 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5%;
+}
+.prix .paragraphe3 p {
+  padding-right: 10%;
+  padding-left: 5%;
+  margin-bottom: 10%;
+  font-size: 12px;
+  font-weight: 500;
+}
+.prix .paragraphe3 a {
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.prix .imgIntro {
+  width: 50%;
+  position: relative;
+}
+.prix .imgIntro h5 {
+  position: absolute;
+  border: 6px solid black;
+  font-size: 60px;
+  font-weight: 900;
+  width: 38%;
+  padding: 4%;
+  top: -30%;
+  right: 15%;
+}
+.prix .imgIntro h5 span {
+  color: white;
+}
+.prix .imgIntro img {
+  width: 100%;
+  padding-right: 10%;
+}
+.prix .imgIntro h6 {
+  color: white;
+  -webkit-clip-path: inset(50% 0 0 0);
+          clip-path: inset(50% 0 0 0);
+  transform: rotate(90deg);
+  position: absolute;
+  right: -6.1%;
+  font-size: 90px;
+  font-weight: 900;
+  bottom: 15%;
+}
+.prix .imgIntro h8 {
+  color: black;
+  -webkit-clip-path: inset(0 0 50% 0);
+          clip-path: inset(0 0 50% 0);
+  transform: rotate(90deg);
+  position: absolute;
+  right: -6.1%;
+  font-size: 90px;
+  font-weight: 900;
+  bottom: 15%;
+}
+
+h7 {
+  font-size: 20px;
+  font-weight: 900;
+  padding-left: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+footer p {
+  line-height: 200%;
+}
+
+@media screen and (max-width: 1200px) {
+  header .navbar {
+    width: 22.3%;
+  }
+  .projet {
+    width: 105%;
+  }
+  .prix .imgIntro h6 {
+    right: -10.4%;
+    bottom: 20%;
+  }
+  .prix .imgIntro h8 {
+    right: -10.4%;
+    bottom: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .navbar {
+    width: 20.8%;
+  }
+  .legoHouse h1 {
+    top: 1%;
+  }
+  .legoHouse .car {
+    top: 60%;
+    width: 19%;
+    right: 12.5%;
+  }
+  .prix .imgIntro {
+    width: 70%;
+  }
+  .prix .imgIntro h6 {
+    font-size: 80px;
+    right: -8.2%;
+    bottom: 25%;
+  }
+  .prix .imgIntro h8 {
+    font-size: 80px;
+    right: -8.1%;
+    bottom: 25%;
+  }
+}
+@media screen and (max-width: 960px) {
+  header .navbar {
+    width: 20.2%;
+  }
+  .building {
+    margin-top: 25%;
+  }
+  .building .imgBuilding {
+    height: 115vh;
+  }
+  .building .imgBuilding p {
+    font-size: 12px;
+  }
+  .building .paragraphes .paragraphe1 p {
+    font-size: 10px;
+  }
+  .building .paragraphes .paragraphe2 p {
+    font-size: 10px;
+  }
+  .prix .imgIntro {
+    width: 70%;
+  }
+  .prix .imgIntro h6 {
+    font-size: 80px;
+    right: -9.5%;
+    bottom: 27%;
+  }
+  .prix .imgIntro h8 {
+    font-size: 80px;
+    right: -9.5%;
+    bottom: 27%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar {
+    width: 17.5%;
+  }
+  .legoHouse h1 {
+    font-size: 60px;
+  }
+  .projet .lorem2 {
+    font-size: 10px;
+  }
+  .building {
+    margin-top: 30%;
+  }
+  .building .imgBuilding {
+    height: 85vh;
+  }
+  .building .imgBuilding p {
+    font-size: 10px;
+  }
+  .building .paragraphes .paragraphe1 p {
+    font-size: 10px;
+  }
+  .building .paragraphes .paragraphe2 p {
+    font-size: 10px;
+  }
+  .prix .paragraphe3 span {
+    font-size: 11px;
+  }
+  .prix .paragraphe3 h4 {
+    font-size: 16px;
+  }
+  .prix .paragraphe3 p {
+    font-size: 10px;
+  }
+  .prix .imgIntro {
+    width: 70%;
+  }
+  .prix .imgIntro h5 {
+    font-size: 40px;
+    top: -20%;
+  }
+  .prix .imgIntro h6 {
+    font-size: 60px;
+    right: -8.4%;
+    bottom: 32%;
+  }
+  .prix .imgIntro h8 {
+    font-size: 60px;
+    right: -8.4%;
+    bottom: 32%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .logo {
+    width: 35%;
+  }
+  header .logo span {
+    font-size: 50px;
+  }
+  header .logo p {
+    font-size: 16px;
+  }
+  header .navbar {
+    margin-left: -16%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+  }
+  header .navbar ul {
+    width: 190%;
+  }
+  header .navbar ul li a {
+    font-size: 16px;
+  }
+  .legoHouse h1 {
+    font-size: 40px;
+  }
+  .legoHouse .car {
+    width: 14%;
+    top: 63%;
+    right: 13%;
+  }
+  .projet {
+    margin-bottom: 150%;
+    margin-top: 20%;
+    position: relative;
+  }
+  .projet .lorem2 {
+    display: block;
+    margin-bottom: 10%;
+  }
+  .projet .lorem2 p {
+    margin-top: 5%;
+    font-size: 16px;
+    width: 100%;
+  }
+  .projet h3 {
+    margin-top: 20%;
+    width: 80%;
+    margin-top: 10%;
+  }
+  .projet a {
+    position: absolute;
+    bottom: -66%;
+  }
+  .building .imgBuilding {
+    width: 90%;
+    margin-left: 7.5%;
+    height: 120vh;
+  }
+  .building .imgBuilding p {
+    font-size: 18px;
+  }
+  .building .paragraphes {
+    display: block;
+    margin: 0;
+    margin-bottom: 220%;
+  }
+  .building .paragraphes .paragraphe1 {
+    width: 200%;
+    margin-left: 15%;
+    border: none;
+  }
+  .building .paragraphes .paragraphe1 span {
+    font-size: 18px;
+  }
+  .building .paragraphes .paragraphe1 h4 {
+    font-size: 22px;
+  }
+  .building .paragraphes .paragraphe1 p {
+    font-size: 16px;
+  }
+  .building .paragraphes .paragraphe2 {
+    margin-top: 50%;
+    width: 200%;
+    margin-left: 15%;
+    border: none;
+  }
+  .building .paragraphes .paragraphe2 span {
+    font-size: 18px;
+  }
+  .building .paragraphes .paragraphe2 h4 {
+    font-size: 22px;
+  }
+  .building .paragraphes .paragraphe2 p {
+    font-size: 16px;
+  }
+  .building .paragraphes .paragraphe2 img {
+    width: 90%;
+    margin-left: 1%;
+  }
+  .prix {
+    display: block;
+  }
+  .prix .paragraphe3 {
+    width: 100%;
+    padding-left: 2%;
+    margin-bottom: 15%;
+  }
+  .prix .paragraphe3 span {
+    font-size: 18px;
+  }
+  .prix .paragraphe3 h4 {
+    font-size: 22px;
+  }
+  .prix .paragraphe3 p {
+    font-size: 16px;
+  }
+  .prix .imgIntro {
+    width: 110%;
+  }
+  .prix .imgIntro h5 {
+    right: 18%;
+    top: -27%;
+  }
+  .prix .imgIntro h6 {
+    right: -9.3%;
+    bottom: 14.5%;
+    font-size: 75px;
+  }
+  .prix .imgIntro h8 {
+    right: -9.3%;
+    bottom: 14.5%;
+    font-size: 75px;
+  }
+}/*# sourceMappingURL=style.css.map */
